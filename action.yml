@@ -33,4 +33,5 @@ runs:
   env:
     STACK_VERSION: ${{ inputs.stack-version }}
     NODES: ${{ inputs.nodes }}
+    PORT: ${{ inputs.port }}
     PLUGINS: ${{ inputs.plugins }}
